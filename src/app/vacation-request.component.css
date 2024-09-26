@@ -1,0 +1,66 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.vacation-header h5 {
+  font-size: 1.5rem;
+}
+
+.vacation-card .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.vacation-card .card-body {
+  padding: 20px;
+}
+
+.vacation-card img {
+  border: 2px solid #ccc;
+}
+
+.vacation-card h5 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.vacation-card p {
+  margin-bottom: 10px;
+  color: #666b67;
+}
+
+.vacation-card .btn-success {
+  width: 120px;
+}
+
+.vacation-card .btn-danger {
+  width: 120px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 5px 15px;
+  width: 300px;
+  background-color: #fff;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+.search-bar i {
+  color: green;
+}
+.highlighted {
+  background-color: rgba(255, 231, 14, 0.8); /* Change this to your preferred color */
+  color: black; /* You can also change the text color if needed */
+}
+
